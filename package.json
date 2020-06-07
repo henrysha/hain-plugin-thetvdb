@@ -1,0 +1,28 @@
+{
+  "name": "hain-plugin-thetvdb",
+  "version": "1.0.0",
+  "description": "Hain Plugin for thetvdb.com search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrysha/hain-plugin-thetvdb.git"
+  },
+  "keywords": [
+    "hain-0.6.0"
+  ],
+  "author": "Henry Seongwook Ha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henrysha/hain-plugin-thetvdb/issues"
+  },
+  "homepage": "https://github.com/henrysha/hain-plugin-thetvdb#readme",
+  "hain": {
+    "prefix": "/tv",
+    "usage": "type /tv something to search thetvdb.com",
+    "icon": "#fa fa-television",
+    "redirect": "/tv"
+  }
+}
